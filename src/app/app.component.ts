@@ -23,5 +23,10 @@ export class AppComponent implements OnInit {
     logout() {
     }
 
+    /* 
+      ng config cli.defaultCollection @ngrx/schematics
+      ng g store AppState --root --module app.module.ts
+    */
+
 
 }
