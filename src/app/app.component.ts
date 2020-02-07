@@ -9,8 +9,6 @@ import {Observable} from "rxjs";
 })
 export class AppComponent implements OnInit {
 
-
-
     constructor() {
 
     }
@@ -27,7 +25,7 @@ export class AppComponent implements OnInit {
       ng config cli.defaultCollection @ngrx/schematics
       ng g store AppState --root --module app.module.ts
       ng g action auth/Auth
+      ng g reducer Auth --flat=false --module auth/auth.module.ts
     */
-
 
 }
